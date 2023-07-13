@@ -8,20 +8,19 @@
 #clock{
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 
-    margin-top: 200px;
+    height:40vh;
 
     font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 #login-form{
+    height:30vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    margin-top: 150px;
-    margin-bottom: 100px;
+    align-items: flex-end;
 }
 #login-form div{
     display:flex;
@@ -58,9 +57,7 @@
 }
 
 #greeting{
-    position: absolute;
-    top: 50vh;
-    width:100%;
+    margin-top:20px;
     text-align: center;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
@@ -78,8 +75,8 @@
 }
 
 #quote{
-    position:absolute;
-    bottom: 2%;
+    position: absolute;
+    bottom:2%;
     width:100%;
     text-align: center;
     color:white;
@@ -90,7 +87,7 @@
     position: absolute;
     top: 1%;
     left: 1%;
-    width:17%;
+    width:32vh;
 }
 #todo-form input{
     width: 100%;
