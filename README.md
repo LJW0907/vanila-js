@@ -1,3 +1,3 @@
-#add basic frame
+# add CSS, not perfect
 
-made basic frame,and function
+.done basic css, still so many problem
